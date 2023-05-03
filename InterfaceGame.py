@@ -121,7 +121,7 @@ class Interface:
 
         #Combobox
         self.screen.fill(self.GREY)
-        self.combo = ComboBox(self.screen,["Agregar al principio","Agregar al final","Eliminar primero", "Eliminar ultimo","Invertir","Eliminar todos","Eliminar por posicion","Agregar en una posicion", "Actualizar pokemon","Eliminar duplicados seleccionando","Unir duplicados", "Eliminar todos los duplicados"],self.combo_rect,self.WHITE,"Arial",16,5,self.BLACK,self.BLACK,30,"Seleccione")
+        self.combo = ComboBox(self.screen,["Agregar al principio","Agregar al final","Eliminar primero", "Eliminar ultimo","Invertir","Eliminar todos","Eliminar por posicion","Agregar en una posicion", "Actualizar pokemon","Eliminar duplicado seleccionando","Unir duplicados", "Eliminar todos los duplicados"],self.combo_rect,self.WHITE,"Arial",16,5,self.BLACK,self.BLACK,30,"Seleccione")
         self.comboIndice = ComboBox(self.screen,self.indices,self.comboIndice_rect,self.WHITE,"Arial",16,5,self.BLACK,self.BLACK,30,"Seleccione")
         self.main_menu = Menu(self.screen, {"SLL": "img/lista.png", "DLL": "img/lista.png", "Pilas y colas": "img/lista.png", "Árboles": "img/arbol.png", "Grafos": "img/grafos.png"}, self.GREY, 40, "Arial", 16, self.BLACK)
         self.indice=0
