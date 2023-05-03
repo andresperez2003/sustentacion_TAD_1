@@ -426,7 +426,7 @@ class Interface:
             self.message = Rect(200,200, 400,100)
             self.btn= Rect(370,250,60,20)
             draw.rect(self.screen,self.BLACK,self.message,0)
-            texto =self.myFontSmall.render("No puede agregara mas de 7 pokemones", True, self.WHITE)
+            texto =self.myFontSmall.render("No puede agregar mas de 7 pokemones", True, self.WHITE)
             self.screen.blit(texto,(200+(self.message.width-texto.get_width())/2,180+(self.message.height-texto.get_height())/2))
             draw.rect(self.screen,(70,189,34),self.btn,0)
             texto= self.myFontSmall.render("Aceptar", True,(0,0,0))
